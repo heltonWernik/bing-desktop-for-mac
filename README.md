@@ -5,11 +5,12 @@ Bing Wallpaper includes a collection of beautiful images from around the world t
 
 ## How to use
 1. Download this script
-2. Test it locally and install all dependencies 
-3. It works... Great, lets do it automatically 
-4. Go to `~/Library/LaunchAgents` and paste the file `play.scripts.wallpaper.plist`
-5. Edit `play.scripts.wallpaper.plist` and put the path for the `wallpaper.py` script on "line 10"
-6. Run `launchctl load ~/Library/LaunchAgents/play.scripts.wallpaper.plist`
+2. On line 25,37,41,42 edit for your path
+3. Test it locally and install all dependencies 
+4. It works... Great, lets do it automatically 
+5. Go to `~/Library/LaunchAgents` and paste the file `play.scripts.wallpaper.plist`
+6. Edit `play.scripts.wallpaper.plist` and put the path for the `wallpaper.py` script on "line 10"
+7. Run `launchctl load ~/Library/LaunchAgents/play.scripts.wallpaper.plist`
 
 ## Options
 - Its works for one desktop or for two, just check inside the script 
